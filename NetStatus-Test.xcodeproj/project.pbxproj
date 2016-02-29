@@ -15,6 +15,8 @@
 		2A69FCEA1C7EEE19003A86E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A69FCE81C7EEE19003A86E8 /* LaunchScreen.storyboard */; };
 		2A69FCF51C7EEE19003A86E8 /* NetStatus_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69FCF41C7EEE19003A86E8 /* NetStatus_TestTests.m */; };
 		2A69FD001C7EEE19003A86E8 /* NetStatus_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69FCFF1C7EEE19003A86E8 /* NetStatus_TestUITests.m */; };
+		2A69FD101C7EEE34003A86E8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69FD0F1C7EEE34003A86E8 /* Reachability.m */; };
+		2A69FD131C7EEE5C003A86E8 /* ChechNetStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A69FD121C7EEE5C003A86E8 /* ChechNetStatus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2A69FCFB1C7EEE19003A86E8 /* NetStatus-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetStatus-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A69FCFF1C7EEE19003A86E8 /* NetStatus_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetStatus_TestUITests.m; sourceTree = "<group>"; };
 		2A69FD011C7EEE19003A86E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A69FD0E1C7EEE34003A86E8 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		2A69FD0F1C7EEE34003A86E8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		2A69FD111C7EEE5C003A86E8 /* ChechNetStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChechNetStatus.h; sourceTree = "<group>"; };
+		2A69FD121C7EEE5C003A86E8 /* ChechNetStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChechNetStatus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		2A69FCD91C7EEE19003A86E8 /* NetStatus-Test */ = {
 			isa = PBXGroup;
 			children = (
+				2A69FD0D1C7EEE34003A86E8 /* 网络是否可用判断 */,
 				2A69FCDD1C7EEE19003A86E8 /* AppDelegate.h */,
 				2A69FCDE1C7EEE19003A86E8 /* AppDelegate.m */,
 				2A69FCE01C7EEE19003A86E8 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				2A69FD011C7EEE19003A86E8 /* Info.plist */,
 			);
 			path = "NetStatus-TestUITests";
+			sourceTree = "<group>";
+		};
+		2A69FD0D1C7EEE34003A86E8 /* 网络是否可用判断 */ = {
+			isa = PBXGroup;
+			children = (
+				2A69FD0E1C7EEE34003A86E8 /* Reachability.h */,
+				2A69FD0F1C7EEE34003A86E8 /* Reachability.m */,
+				2A69FD111C7EEE5C003A86E8 /* ChechNetStatus.h */,
+				2A69FD121C7EEE5C003A86E8 /* ChechNetStatus.m */,
+			);
+			path = "网络是否可用判断";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +290,8 @@
 			files = (
 				2A69FCE21C7EEE19003A86E8 /* ViewController.m in Sources */,
 				2A69FCDF1C7EEE19003A86E8 /* AppDelegate.m in Sources */,
+				2A69FD101C7EEE34003A86E8 /* Reachability.m in Sources */,
+				2A69FD131C7EEE5C003A86E8 /* ChechNetStatus.m in Sources */,
 				2A69FCDC1C7EEE19003A86E8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
